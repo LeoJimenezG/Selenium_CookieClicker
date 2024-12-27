@@ -1,17 +1,59 @@
-# Selenium_CookieClicker
-Program to automatically play Cookie Clicker using Selenium.
-This is the link to the Cookie Clicker game: https://orteil.dashnet.org/experiments/cookie/. It is not the original website, but it is a dedicated website for trying automated processes.
+# Selenium_CookieClicker 🍪
+A program to automatically play Cookie Clicker using Selenium WebDriver.  
 
--- How does it work --
-- When you run the program a new window will be opened.
-- ![image](https://github.com/user-attachments/assets/fbd6bfc9-a3cc-47fe-b774-f7310055a814)
-- The program will start to click on the cookie.
-- After 10 seconds, if there are enough cookies, different upgrades will be bought.
-- This process will continue for 5 minutes.
-- You can change the cooldown time to update, modifying the variable "buy_time".
-- ![image](https://github.com/user-attachments/assets/5029ca66-6707-48a4-84aa-a1235c73d36a)
-- You only need to modify the "10" for the seconds you want.
-- You can also change the duration of the process, modifying the variable "duration".
--  ![image](https://github.com/user-attachments/assets/2ff7a14e-5389-4855-b577-9700bbb388b9)
-- You only need to modify the "5" for the minutes you want.
-- When the process ends, the opened window will remain that way.
+---
+
+## 🎮 About the Game  
+Cookie Clicker is a fun incremental game where you click on a cookie to earn points and unlock upgrades.  
+Try the game here: [Cookie Clicker](https://orteil.dashnet.org/experiments/cookie/).  
+
+*Note: This is not the original website, but a dedicated version for testing automated processes.*  
+
+---
+
+## 📘 How It Works
+
+1. **Window Launch**:  
+   - When you run the program, a new browser window will open automatically.  
+     ![Window Example](https://github.com/user-attachments/assets/fbd6bfc9-a3cc-47fe-b774-f7310055a814)  
+
+2. **Cookie Clicking**:  
+   - The program will start clicking on the cookie continuously.  
+
+3. **Upgrades**:  
+   - Every 10 seconds (by default), the program will check for upgrades or items to purchase. If there are enough cookies, it will buy the available upgrades.  
+
+4. **Duration**:  
+   - The automation runs for 5 minutes (by default). After this period, the clicking stops, but the browser window remains open.  
+
+---
+
+## ⚙️ Customization 
+
+### 1. Cooldown Time for Upgrades  
+   - Adjust the frequency for checking and buying upgrades by modifying the `buy_time` variable.  
+   - Change the value `10` to the desired number of seconds.
+
+     ![Cooldown Time Example](https://github.com/user-attachments/assets/5029ca66-6707-48a4-84aa-a1235c73d36a)  
+
+### 2. Duration of the Automation
+   - Modify the `duration` variable to set how long the automation runs.   
+   - Change the value `5` to the desired number of minutes.
+
+     ![Duration Example](https://github.com/user-attachments/assets/2ff7a14e-5389-4855-b577-9700bbb388b9)  
+
+---
+
+## 📚 Useful Resources
+- [Selenium docs](https://www.selenium.dev/documentation/)  
+- [Cookie Clicker - Experiments Version](https://orteil.dashnet.org/experiments/cookie/)
+
+---
+
+## 💡 Notes
+- At the end of the process, the browser window will remain open. You can manually close it.  
+- Ensure that Selenium WebDriver and the appropriate browser driver (e.g., ChromeDriver) are properly installed on your system.  
+- This code is meant to showcase how Selenium can automate browser-based tasks.  
+
+
+Enjoy automating Cookie Clicker!  
